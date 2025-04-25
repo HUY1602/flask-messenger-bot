@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 
 VERIFY_TOKEN = os.environ.get('VERIFY_TOKEN', 'huy1602')
-PAGE_ACCESS_TOKEN = os.environ.get('PAGE_ACCESS_TOKEN', 'your_page_access_token')
+PAGE_ACCESS_TOKEN = os.environ.get('PAGE_ACCESS_TOKEN', 'EAAeMrt8MMaQBOyVIp2C7fPT5LzmCPaa3xEHubOvFkRUGbKKHu7E2fQjFdQd9mTKMOjkTkY2dJxbm1ah9I2wsESpbGGNEM0g6HPGCoZBWqI9quthjZB3KzyuudisF4PkKXCz3FT0xbRxpZBEL7hFs5g23Jz2NsNOD9VCiGk7ZA4wa7jCe3lsi8iWwEQVJAqWXdAZDZD')
 
 @app.route('/')
 def home():
